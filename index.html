@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koko performance calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-6">
+            <div class="main">
+                <label for="fname">Kill:</label><br>
+                <input type="text" name="kill" id="kill">
+                <br>
+                <label for="fname">Death:</label><br>
+                <input type="text" name="death" id="death">
+                <br>
+                <label for="fname">Assist:</label><br>
+                <input type="text" name="assist" id="assist">
+                <br>
+                <label for="fname">Top frag kill:</label><br>
+                <input type="text" name="topfrag" id="topfrag">
+                <br>
+                <label for="fname">Frag:</label><br>
+                <input type="text" name="frag" id="frag">
+                <br><br>
+                <button onclick="Szamol()">Számolás</button>
+            </div>
+            <br>
+            <p id="kimenet" class="valasz"></p>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+</body>
+</html>
