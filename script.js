@@ -1,5 +1,9 @@
 function Szamol(){
     let k = parseInt(document.getElementById("kill").value);
+    if (k < 10){
+        document.getElementById("kimenet").innerText = "Jack Fitness"
+        return
+    }
     let d = parseInt(document.getElementById("death").value);
     let a = parseInt(document.getElementById("assist").value);
     let tf = parseInt(document.getElementById("topfrag").value);
